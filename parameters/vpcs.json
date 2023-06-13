@@ -1,0 +1,31 @@
+{
+    "vpcs": [
+        {
+            "region": "eu-central-1",
+            "name": "vpc-prd-euc1-app",
+            "cidr-block-ipv4": "172.17.1.0/24",
+            "cidr-block-ipv6": true,
+            "dns-hostnames": true,
+            "dns-support": true,
+            "tenancy": "default"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "vpc-stg-euc1-app",
+            "cidr-block-ipv4": "172.17.2.0/24",
+            "cidr-block-ipv6": false,
+            "dns-hostnames": true,
+            "dns-support": true,
+            "tenancy": "default"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "vpc-dev-euc1-app",
+            "cidr-block-ipv4": "172.17.3.0/24",
+            "cidr-block-ipv6": false,
+            "dns-hostnames": true,
+            "dns-support": true,
+            "tenancy": "default"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "egress-only-internet-gateways": [
+        {
+            "region": "eu-central-1",
+            "name": "eigw-prd-euc1-app",
+            "vpc-name": "vpc-prd-euc1-app"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "eigw-stg-euc1-app",
+            "vpc-name": "vpc-stg-euc1-app"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "eigw-dev-euc1-app",
+            "vpc-name": "vpc-dev-euc1-app"
+        }
+    ]
+}

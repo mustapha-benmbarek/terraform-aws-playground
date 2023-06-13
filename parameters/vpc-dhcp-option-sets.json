@@ -1,0 +1,61 @@
+{
+    "dhcp-option-sets": [
+        {
+            "region": "eu-central-1",
+            "name": "dhcp-prd-euc1-app",
+            "domain-name": "prd.domain.local",
+            "domain-name-servers": [
+                "10.0.0.1",
+                "10.0.0.2"
+            ],
+            "ntp-servers": [
+                "176.16.16.16",
+                "176.16.16.17"
+            ],
+            "netbios-name-servers": [
+                "192.168.0.6",
+                "192.168.0.7"
+            ],
+            "netbios-node_type": 2,
+            "vpc-name": "vpc-prd-euc1-app"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "dhcp-stg-euc1-app",
+            "domain-name": "stg.domain.local",
+            "domain-name-servers": [
+                "10.0.0.1",
+                "10.0.0.2"
+            ],
+            "ntp-servers": [
+                "176.16.16.16",
+                "176.16.16.17"
+            ],
+            "netbios-name-servers": [
+                "192.168.0.6",
+                "192.168.0.7"
+            ],
+            "netbios-node_type": 2,
+            "vpc-name": "vpc-stg-euc1-app"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "dhcp-dev-euc1-app",
+            "domain-name": "dev.domain.local",
+            "domain-name-servers": [
+                "10.0.0.1",
+                "10.0.0.2"
+            ],
+            "ntp-servers": [
+                "176.16.16.16",
+                "176.16.16.17"
+            ],
+            "netbios-name-servers": [
+                "192.168.0.6",
+                "192.168.0.7"
+            ],
+            "netbios-node_type": 2,
+            "vpc-name": "vpc-dev-euc1-app"
+        }
+    ]
+}

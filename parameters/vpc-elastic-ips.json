@@ -1,0 +1,25 @@
+{
+  "elastic-ips": [
+    {
+      "region": "eu-central-1",
+      "name": "eip-prd-euc1-app-1",
+      "network-order-group": "eu-central-1",
+      "public-ipv4-pool": "amazon",
+      "public-ipv4": ""
+    },
+    {
+      "region": "eu-central-1",
+      "name": "eip-prd-euc1-app-2",
+      "network-order-group": "eu-central-1",
+      "public-ipv4-pool": "amazon",
+      "public-ipv4": ""
+    },
+    {
+      "region": "eu-central-1",
+      "name": "eip-prd-euc1-app-3",
+      "network-order-group": "eu-central-1",
+      "public-ipv4-pool": "amazon",
+      "public-ipv4": ""
+    }
+  ]
+}

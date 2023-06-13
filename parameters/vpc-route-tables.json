@@ -1,0 +1,56 @@
+{
+    "route-tables": [
+        {
+            "region": "eu-central-1",
+            "name": "rtb-prd-euc1-app-public-1a",
+            "vpc-name": "vpc-prd-euc1-app",
+            "subnets": [
+                "sn-prd-euc1-app-public-1a",
+                "sn-prd-euc1-app-public-1b",
+                "sn-prd-euc1-app-public-1c"
+            ],
+            "routes": [
+                {
+                    "destinationcl": "192.168.1.0/24",
+                    "description": "Internal Network #1"
+                },
+                {
+                    "cidr": "192.168.2.0/24",
+                    "description": "Internal Network #2"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "mpl-stg-euc1-app",
+            "ip-address-family": "IPv4",
+            "ip-max-entries": 2,
+            "ip-entries": [
+                {
+                    "cidr": "192.168.3.0/24",
+                    "description": "Internal Network #1"
+                },
+                {
+                    "cidr": "192.168.4.0/24",
+                    "description": "Internal Network #2"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "mpl-dev-euc1-app",
+            "ip-address-family": "IPv4",
+            "ip-max-entries": 2,
+            "ip-entries": [
+                {
+                    "cidr": "192.168.5.0/24",
+                    "description": "Internal Network #1"
+                },
+                {
+                    "cidr": "192.168.6.0/24",
+                    "description": "Internal Network #2"
+                }
+            ]
+        }
+    ]
+}

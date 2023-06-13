@@ -1,0 +1,19 @@
+{
+  "internet-gateways": [
+    {
+      "region": "eu-central-1",
+      "name": "igw-prd-euc1-app",
+      "vpc-name": "vpc-prd-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "igw-stg-euc1-app",
+      "vpc-name": "vpc-stg-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "igw-dev-euc1-app",
+      "vpc-name": "vpc-dev-euc1-app"
+    }
+  ]
+}

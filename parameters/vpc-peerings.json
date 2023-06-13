@@ -1,0 +1,24 @@
+{
+    "peerings": [
+        {
+            "region": "eu-central-1",
+            "name": "pcx-prd-euc1-app-1",
+            "requester-account-id": "",
+            "requester-vpc-name": "vpc-prd-euc1-app",
+            "requester-allow-dns-resolution": true,
+            "accepter-account-id": "",
+            "accepter-region": "eu-central-1",
+            "accepter-vpc-name": "vpc-stg-euc1-app",
+            "accepter-allow-dns-resolution": true
+        },
+        {
+            "region": "eu-central-1",
+            "name": "pcx-prd-euc1-app-2",
+            "requester-account-id": "",
+            "requester-vpc-name": "vpc-prd-euc1-app",
+            "accepter-account-id": "",
+            "accepter-region": "eu-central-1",
+            "accepter-vpc-name": "vpc-dev-euc1-app"
+        }
+    ]
+}

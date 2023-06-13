@@ -1,0 +1,26 @@
+{
+  "nat-gateways": [
+    {
+      "region": "eu-central-1",
+      "name": "ngw-prd-euc1-app-1",
+      "subnet-name": "sn-prd-euc1-app-public-1a",
+      "connectivity-type": "private",
+      "elastic-ip-name": "eip-prd-euc1-app-1",
+      "private-ip": "172.17.1.20"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "ngw-prd-euc1-app-2",
+      "subnet-name": "sn-prd-euc1-app-public-1b",
+      "connectivity-type": "public",
+      "elastic-ip-name": "eip-prd-euc1-app-2"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "ngw-prd-euc1-app-3",
+      "subnet-name": "sn-prd-euc1-app-public-1c",
+      "connectivity-type": "public",
+      "elastic-ip-name": "eip-prd-euc1-app-3"
+    }
+  ]
+}
