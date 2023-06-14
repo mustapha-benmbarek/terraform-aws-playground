@@ -1,0 +1,19 @@
+{
+    "placement-groups": [
+        {
+            "region": "eu-central-1",
+            "name": "pgp-prd-euc1-app",
+            "strategy": "cluster"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "pgp-stg-euc1-app",
+            "strategy": "spread"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "pgp-dev-euc1-app",
+            "strategy": "partition"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "virtual-private-gateways": [
+        {
+            "region": "eu-central-1",
+            "name": "vgw-prd-euc1-app",
+            "asn": 64891,
+            "vpc-name": "vpc-prd-euc1-app"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "vgw-stg-euc1-app",
+            "asn": 64892,
+            "vpc-name": "vpc-stg-euc1-app"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "vgw-dev-euc1-app",
+            "asn": 64893,
+            "vpc-name": "vpc-dev-euc1-app"
+        }
+    ]
+}
