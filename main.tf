@@ -1,4 +1,4 @@
-/*Parameters | Networking Stack..*/
+/*Networking Stack..*/
 module "aws-networking" {
   source                                 = "github.com/mustapha-benmbarek/terraform-aws-core-networking"
   file-vpcs                              = "${local.path.networking}/vpcs.json"
@@ -13,16 +13,17 @@ module "aws-networking" {
   //file-vpc-endpoints                     = "${local.path.networking}/vpc-endpoints.json"
   //file-vpc-endpoint-services             = "${local.path.networking}/vpc-endpoint-services.json"
   //file-vpc-peerings                      = "${local.path.networking}/vpc-peerings.json"
-  file-vpc-route-tables             = "${local.path.networking}/vpc-route-tables.json"
+  //file-vpc-route-tables             = "${local.path.networking}/vpc-route-tables.json"
   file-placement-groups             = "${local.path.networking}/placement-groups.json"
   file-vpn-customer-gateways        = "${local.path.networking}/vpn-customer-gateways.json"
   file-vpn-virtual-private-gateways = "${local.path.networking}/vpn-virtual-private-gateways.json"
 }
 
-/*Parameters | Security Stack..*/
+/*Security Stack..*/
 module "aws-security" {
-  source               = "github.com/mustapha-benmbarek/terraform-aws-core-security"
-  file-key-pairs       = "${local.path.security}/key-pairs.json"
-  file-network-acls    = "${local.path.security}/network-acls.json"
-  file-security-groups = "${local.path.security}/security-groups.json"
+  source            = "github.com/mustapha-benmbarek/terraform-aws-core-security"
+  data-vpcs         = module.aws-networking.vpcs
+  data-vpc-subnets  = module.aws-networking.vpc-subnets
+  file-key-pairs    = "${local.path.security}/key-pairs.json"
+  file-network-acls = "${local.path.security}/network-acls.json"
 }

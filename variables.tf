@@ -1,4 +1,4 @@
-/*XXXXXXXXXXXXXXXXXX loading...*/
+/*Filepath loading...*/
 locals {
   path = {
     networking = "${path.module}/parameters/networking/"
