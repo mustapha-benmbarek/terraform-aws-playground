@@ -1,0 +1,172 @@
+{
+    "network-acls": [
+        {
+            "region": "eu-central-1",
+            "name": "nacl-prd-euc1-app-public",
+            "vpc-name": "vpc-prd-euc1-app",
+            "subnets": [
+                "sn-prd-euc1-app-public-1a",
+                "sn-prd-euc1-app-public-1b",
+                "sn-prd-euc1-app-public-1c"
+            ],
+            "ingress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "TCP",
+                    "rule-port-from": 443,
+                    "rule-port-to": 443,
+                    "rule-source-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ],
+            "egress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "all",
+                    "rule-destination-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nacl-prd-euc1-app-private",
+            "vpc-name": "vpc-prd-euc1-app",
+            "subnets": [
+                "sn-prd-euc1-app-private-1a",
+                "sn-prd-euc1-app-private-1b",
+                "sn-prd-euc1-app-private-1c"
+            ],
+            "ingress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "TCP",
+                    "rule-port-from": 443,
+                    "rule-port-to": 443,
+                    "rule-source-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ],
+            "egress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "all",
+                    "rule-destination-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nacl-stg-euc1-app-public",
+            "vpc-name": "vpc-stg-euc1-app",
+            "subnets": [
+                "sn-stg-euc1-app-public-1a",
+                "sn-stg-euc1-app-public-1b",
+                "sn-stg-euc1-app-public-1c"
+            ],
+            "ingress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "TCP",
+                    "rule-port-from": 443,
+                    "rule-port-to": 443,
+                    "rule-source-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ],
+            "egress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "all",
+                    "rule-destination-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nacl-stg-euc1-app-private",
+            "vpc-name": "vpc-stg-euc1-app",
+            "subnets": [
+                "sn-stg-euc1-app-private-1a",
+                "sn-stg-euc1-app-private-1b",
+                "sn-stg-euc1-app-private-1c"
+            ],
+            "ingress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "TCP",
+                    "rule-port-from": 443,
+                    "rule-port-to": 443,
+                    "rule-source-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ],
+            "egress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "all",
+                    "rule-destination-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nacl-dev-euc1-app-public",
+            "vpc-name": "vpc-dev-euc1-app",
+            "subnets": [
+                "sn-dev-euc1-app-public-1a",
+                "sn-dev-euc1-app-public-1b",
+                "sn-dev-euc1-app-public-1c"
+            ],
+            "ingress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "TCP",
+                    "rule-port-from": 443,
+                    "rule-port-to": 443,
+                    "rule-source-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ],
+            "egress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "all",
+                    "rule-destination-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nacl-dev-euc1-app-private",
+            "vpc-name": "vpc-dev-euc1-app",
+            "subnets": [
+                "sn-dev-euc1-app-private-1a",
+                "sn-dev-euc1-app-private-1b",
+                "sn-dev-euc1-app-private-1c"
+            ],
+            "ingress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "TCP",
+                    "rule-port-from": 443,
+                    "rule-port-to": 443,
+                    "rule-source-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ],
+            "egress-rules": [
+                {
+                    "rule-number": 100,
+                    "rule-protocol": "all",
+                    "rule-destination-ipv4": "0.0.0.0/0",
+                    "rule-action": "allow"
+                }
+            ]
+        }
+    ]
+}
