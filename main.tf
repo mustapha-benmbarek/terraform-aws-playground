@@ -27,3 +27,23 @@ module "aws-security" {
   file-key-pairs    = "${local.path.security}/key-pairs.json"
   file-network-acls = "${local.path.security}/network-acls.json"
 }
+
+/*Database Stack..*/
+module "aws-database" {
+  source                         = "github.com/mustapha-benmbarek/terraform-aws-core-database"
+  data-vpcs                      = module.aws-networking.vpcs
+  data-vpc-subnets               = module.aws-networking.vpc-subnets
+  file-rds-aurora-mysql-dbs      = "${local.path.security}/rds-aurora-mysql-dbs.json"
+  file-rds-aurora-postgresql-dbs = "${local.path.security}/rds-aurora-postgresql-dbs.json"
+  file-rds-mysql-dbs             = "${local.path.security}/rds-mysql-dbs.json"
+  file-rds-postgresql-dbs        = "${local.path.security}/rds-postgresql-dbs.json"
+  file-rds-mariadb-dbs           = "${local.path.security}/rds-mariadb-dbs.json"
+  file-rds-oracle-dbs            = "${local.path.security}/rds-oracle-dbs.json"
+  file-rds-mssql-dbs             = "${local.path.security}/rds-mssql-dbs.json"
+  file-documentdb-dbs            = "${local.path.security}/documentdb-dbs.json"
+  file-neptune-dbs               = "${local.path.security}/neptune-dbs.json"
+  file-elasticache-dbs           = "${local.path.security}/elasticache-dbs.json"
+  file-memorydb-redis-dbs        = "${local.path.security}/memorydb-redis-dbs.json"
+  file-quantum-ledger-dbs        = "${local.path.security}/quantum-ledger-dbs.json"
+  file-keyspaces-dbs             = "${local.path.security}/keyspaces-dbs.json"
+}
