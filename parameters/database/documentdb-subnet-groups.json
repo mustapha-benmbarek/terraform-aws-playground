@@ -1,0 +1,34 @@
+{
+    "documentdb-subnet-groups": [
+        {
+            "region": "eu-central-1",
+            "name": "docdb-sg-prd-euc1-app",
+            "description": "docdb-sg-prd-euc1-app-description",
+            "subnets": [
+                "sn-prd-euc1-app-private-1a",
+                "sn-prd-euc1-app-private-1b",
+                "sn-prd-euc1-app-private-1c"
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "docdb-sg-stg-euc1-app",
+            "description": "docdb-sg-stg-euc1-app-description",
+            "subnets": [
+                "sn-stg-euc1-app-private-1a",
+                "sn-stg-euc1-app-private-1b",
+                "sn-stg-euc1-app-private-1c"
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "docdb-sg-dev-euc1-app",
+            "description": "docdb-sg-dev-euc1-app-description",
+            "subnets": [
+                "sn-dev-euc1-app-private-1a",
+                "sn-dev-euc1-app-private-1b",
+                "sn-dev-euc1-app-private-1c"
+            ]
+        }
+    ]
+}

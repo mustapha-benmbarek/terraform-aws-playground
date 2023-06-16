@@ -1,0 +1,30 @@
+{
+    "documentdb-parameter-groups": [
+        {
+            "region": "eu-central-1",
+            "name": "docdb-pg-prd-euc1-app",
+            "description": "docdb-pg-prd-euc1-app-description",
+            "family": "docdb5.0",
+            "parameters": [
+                {
+                    "param-name": "tls",
+                    "param-value": "enabled"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "docdb-pg-stg-euc1-app",
+            "description": "docdb-pg-stg-euc1-app-description",
+            "family": "docdb5.0",
+            "parameters": []
+        },
+        {
+            "region": "eu-central-1",
+            "name": "docdb-pg-dev-euc1-app",
+            "description": "docdb-pg-dev-euc1-app-description",
+            "family": "docdb5.0",
+            "parameters": []
+        }
+    ]
+}

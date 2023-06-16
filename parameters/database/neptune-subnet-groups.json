@@ -1,0 +1,34 @@
+{
+    "neptune-subnet-groups": [
+        {
+            "region": "eu-central-1",
+            "name": "nepdb-sg-prd-euc1-app",
+            "description": "nepdb-sg-prd-euc1-app-description",
+            "subnets": [
+                "sn-prd-euc1-app-private-1a",
+                "sn-prd-euc1-app-private-1b",
+                "sn-prd-euc1-app-private-1c"
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nepdb-sg-stg-euc1-app",
+            "description": "nepdb-sg-stg-euc1-app-description",
+            "subnets": [
+                "sn-stg-euc1-app-private-1a",
+                "sn-stg-euc1-app-private-1b",
+                "sn-stg-euc1-app-private-1c"
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nepdb-sg-dev-euc1-app",
+            "description": "nepdb-sg-dev-euc1-app-description",
+            "subnets": [
+                "sn-dev-euc1-app-private-1a",
+                "sn-dev-euc1-app-private-1b",
+                "sn-dev-euc1-app-private-1c"
+            ]
+        }
+    ]
+}

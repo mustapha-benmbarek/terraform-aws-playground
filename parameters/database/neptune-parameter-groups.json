@@ -1,0 +1,33 @@
+{
+    "neptune-parameter-groups": [
+        {
+            "region": "eu-central-1",
+            "name": "nepdb-pg-prd-euc1-app",
+            "description": "nepdb-pg-prd-euc1-app-description",
+            "family": "neptune1.2",
+            "cluster": true,
+            "parameters": [
+                {
+                    "param-name": "neptune_enable_audit_log",
+                    "param-value": "1"
+                }
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nepdb-pg-stg-euc1-app",
+            "description": "nepdb-pg-stg-euc1-app-description",
+            "family": "neptune1.2",
+            "cluster": true,
+            "parameters": []
+        },
+        {
+            "region": "eu-central-1",
+            "name": "nepdb-pg-dev-euc1-app",
+            "description": "nepdb-pg-dev-euc1-app-description",
+            "family": "neptune1.2",
+            "cluster": true,
+            "parameters": []
+        }
+    ]
+}
