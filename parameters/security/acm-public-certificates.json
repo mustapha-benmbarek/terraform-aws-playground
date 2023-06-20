@@ -1,0 +1,28 @@
+{
+    "public-certificates": [
+        {
+            "region": "eu-central-1",
+            "name": "acm-prd-euc1-app",
+            "domain-name": "creeks.com",
+            "validation-method": "DNS",
+            "key-algorithm": "RSA_2048",
+            "subject-alternative-names": []
+        },
+        {
+            "region": "eu-central-1",
+            "name": "acm-stg-euc1-app",
+            "domain-name": "stg.creeks.com",
+            "validation-method": "DNS",
+            "key-algorithm": "RSA_2048",
+            "subject-alternative-names": []
+        },
+        {
+            "region": "eu-central-1",
+            "name": "acm-dev-euc1-app",
+            "domain-name": "dev.creeks.com",
+            "validation-method": "DNS",
+            "key-algorithm": "RSA_2048",
+            "subject-alternative-names": []
+        }
+    ]
+}

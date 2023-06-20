@@ -21,13 +21,13 @@ module "aws-networking" {
 
 /*Security Stack..*/
 module "aws-security" {
-  source            = "github.com/mustapha-benmbarek/terraform-aws-core-security"
-  data-vpcs         = module.aws-networking.vpcs
-  data-vpc-subnets  = module.aws-networking.vpc-subnets
-  file-key-pairs    = "${local.path.security}/key-pairs.json"
-  file-network-acls = "${local.path.security}/network-acls.json"
+  source                       = "github.com/mustapha-benmbarek/terraform-aws-core-security"
+  data-vpcs                    = module.aws-networking.vpcs
+  data-vpc-subnets             = module.aws-networking.vpc-subnets
+  file-key-pairs               = "${local.path.security}/key-pairs.json"
+  file-network-acls            = "${local.path.security}/network-acls.json"
+  file-acm-public-certificates = "${local.path.security}/acm-public-certificates.json"
 }
-
 
 /*Database Stack..*/
 module "aws-database" {
