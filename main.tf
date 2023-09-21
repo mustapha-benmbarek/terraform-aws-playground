@@ -19,7 +19,7 @@ module "aws-networking" {
   file-vpn-virtual-private-gateways      = "${local.path.networking}/vpn-virtual-private-gateways.json"
 }
 
-/*Security Stack..*/
+/*Security Stack..
 module "aws-security" {
   source                       = "github.com/mustapha-benmbarek/terraform-aws-core-security"
   data-vpcs                    = module.aws-networking.vpcs
@@ -29,7 +29,7 @@ module "aws-security" {
   file-acm-public-certificates = "${local.path.security}/acm-public-certificates.json"
 }
 
-/*Database Stack..*/
+/*Database Stack..
 module "aws-database" {
   source                           = "github.com/mustapha-benmbarek/terraform-aws-core-database"
   data-vpcs                        = module.aws-networking.vpcs
@@ -53,3 +53,4 @@ module "aws-database" {
   file-keyspaces-dbs               = "${local.path.database}/keyspaces-dbs.json"
   file-timestream-dbs              = "${local.path.database}/timestream-dbs.json"
 }
+*/
