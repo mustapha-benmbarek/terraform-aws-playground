@@ -1,0 +1,16 @@
+{
+    "firewall-rules": [
+        {
+            "region": "eu-central-1",
+            "name": "r53fw-rl-prd-euc1-app-1",
+            "action": "BLOCK",
+            "priority": 100,
+            "block-response": "OVERRIDE",
+            "block-override-record-type": "CNAME",
+            "block-override-record-value": "example.com",
+            "block-override-record-ttl": 60,
+            "domain-list-name": "r53fw-dl-prd-euc1-app",
+            "rule-group-name": "r53fw-rlg-prd-euc1-app"
+        }
+    ]
+}

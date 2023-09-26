@@ -5,21 +5,24 @@
             "name": "cgw-prd-euc1-app",
             "type": "ipsec.1",
             "asn": 65891,
-            "address-ipv4": "89.89.89.1"
+            "address-ipv4": "89.89.89.1",
+            "device-name": "Fortinet FortiGate-VM00"
         },
         {
             "region": "eu-central-1",
             "name": "cgw-stg-euc1-app",
             "type": "ipsec.1",
             "asn": 65892,
-            "address-ipv4": "89.89.89.2"
+            "address-ipv4": "89.89.89.2",
+            "device-name": "Fortinet FortiGate-VM01"
         },
         {
             "region": "eu-central-1",
             "name": "cgw-dev-euc1-app",
             "type": "ipsec.1",
             "asn": 65893,
-            "address-ipv4": "89.89.89.3"
+            "address-ipv4": "89.89.89.3",
+            "device-name": "Palo Alto PA-5400"
         }
     ]
 }

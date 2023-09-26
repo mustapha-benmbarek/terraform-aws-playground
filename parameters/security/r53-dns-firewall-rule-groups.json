@@ -1,0 +1,23 @@
+{
+    "firewall-rule-groups": [
+        {
+            "region": "eu-central-1",
+            "name": "r53fw-rlg-prd-euc1-app",
+            "description": "Rule Group Description #1",
+            "vpc-names": [
+                "10.0.0.1",
+                "10.0.0.2"
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "r53fw-rlg-stg-euc1-app",
+            "description": "Rule Group Description #2"
+        },
+        {
+            "region": "eu-central-1",
+            "name": "r53fw-rlg-dev-euc1-app",
+            "description": "Rule Group Description #3"
+        }
+    ]
+}

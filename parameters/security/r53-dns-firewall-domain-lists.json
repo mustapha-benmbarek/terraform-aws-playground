@@ -1,0 +1,22 @@
+{
+    "domain-lists": [
+        {
+            "region": "eu-central-1",
+            "name": "r53fw-dl-prd-euc1-app",
+            "domain-names": [
+                "example.com",
+                "*.example.com"
+            ]
+        },
+        {
+            "region": "eu-central-1",
+            "name": "r53fw-dl-stg-euc1-app",
+            "domain-names": []
+        },
+        {
+            "region": "eu-central-1",
+            "name": "r53fw-dl-dev-euc1-app",
+            "domain-name": "prd.domain.local"
+        }
+    ]
+}

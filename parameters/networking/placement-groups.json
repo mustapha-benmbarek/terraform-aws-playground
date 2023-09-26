@@ -13,7 +13,8 @@
         {
             "region": "eu-central-1",
             "name": "pgp-dev-euc1-app",
-            "strategy": "partition"
+            "strategy": "partition",
+            "partitions": 2
         }
     ]
 }
