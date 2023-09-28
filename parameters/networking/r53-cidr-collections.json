@@ -1,0 +1,19 @@
+{
+  "cidr-collections": [
+    {
+      "region": "eu-central-1",
+      "name": "r53-cidrc-prd-euc1-app",
+      "description": "CIDR Collection for Production"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "r53-cidrc-stg-euc1-app",
+      "description": "CIDR Collection for Staging"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "r53-cidrc-dev-euc1-app",
+      "description": "CIDR Collection for Development"
+    }
+  ]
+}
