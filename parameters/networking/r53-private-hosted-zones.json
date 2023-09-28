@@ -1,0 +1,28 @@
+{
+  "private-hosted-zones": [
+    {
+      "region": "eu-central-1",
+      "name": "r53-phz-prd-euc1-app",
+      "scope": "private",
+      "domain-name": "prd.creeks.local",
+      "description": "Private domain (Production)",
+      "vpc-name": "vpc-prd-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "r53-phz-stg-euc1-app",
+      "scope": "private",
+      "domain-name": "stg.creeks.local",
+      "description": "Private domain (Staging)",
+      "vpc-name": "vpc-stg-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "r53-phz-dev-euc1-app",
+      "scope": "private",
+      "domain-name": "dev.creeks.local",
+      "description": "Private domain (Development)",
+      "vpc-name": "vpc-dev-euc1-app"
+    }
+  ]
+}

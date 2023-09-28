@@ -1,0 +1,144 @@
+{
+  "private-hosted-zones": [
+    {
+      "region": "eu-central-1",
+      "name": "sn-prd-euc1-app-public-1a"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1b",
+      "name": "sn-prd-euc1-app-public-1b",
+      "cidr-block-ipv4": "172.17.1.32/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-prd-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1c",
+      "name": "sn-prd-euc1-app-public-1c",
+      "cidr-block-ipv4": "172.17.1.64/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-prd-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1a",
+      "name": "sn-prd-euc1-app-private-1a",
+      "cidr-block-ipv4": "172.17.1.96/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-prd-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1b",
+      "name": "sn-prd-euc1-app-private-1b",
+      "cidr-block-ipv4": "172.17.1.128/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-prd-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1c",
+      "name": "sn-prd-euc1-app-private-1c",
+      "cidr-block-ipv4": "172.17.1.160/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-prd-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1a",
+      "name": "sn-stg-euc1-app-public-1a",
+      "cidr-block-ipv4": "172.17.2.0/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-stg-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1b",
+      "name": "sn-stg-euc1-app-public-1b",
+      "cidr-block-ipv4": "172.17.2.32/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-stg-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1c",
+      "name": "sn-stg-euc1-app-public-1c",
+      "cidr-block-ipv4": "172.17.2.64/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-stg-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1a",
+      "name": "sn-stg-euc1-app-private-1a",
+      "cidr-block-ipv4": "172.17.2.96/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-stg-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1b",
+      "name": "sn-stg-euc1-app-private-1b",
+      "cidr-block-ipv4": "172.17.2.128/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-stg-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1c",
+      "name": "sn-stg-euc1-app-private-1c",
+      "cidr-block-ipv4": "172.17.2.160/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-stg-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1a",
+      "name": "sn-dev-euc1-app-public-1a",
+      "cidr-block-ipv4": "172.17.3.0/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-dev-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1b",
+      "name": "sn-dev-euc1-app-public-1b",
+      "cidr-block-ipv4": "172.17.3.32/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-dev-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1c",
+      "name": "sn-dev-euc1-app-public-1c",
+      "cidr-block-ipv4": "172.17.3.64/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-dev-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1a",
+      "name": "sn-dev-euc1-app-private-1a",
+      "cidr-block-ipv4": "172.17.3.96/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-dev-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1b",
+      "name": "sn-dev-euc1-app-private-1b",
+      "cidr-block-ipv4": "172.17.3.128/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-dev-euc1-app"
+    },
+    {
+      "region": "eu-central-1",
+      "availability-zone": "eu-central-1c",
+      "name": "sn-dev-euc1-app-private-1c",
+      "cidr-block-ipv4": "172.17.3.160/27",
+      "cidr-block-ipv6": "",
+      "vpc-name": "vpc-dev-euc1-app"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "public-hosted-zones": [
+    {
+      "region": "eu-central-1",
+      "name": "r53-phz-prd-euc1-app",
+      "scope": "public",
+      "domain-name": "prd.creeks.com",
+      "description": "Public domain (Production)"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "r53-phz-stg-euc1-app",
+      "scope": "public",
+      "domain-name": "stg.creeks.com",
+      "description": "Public domain (Staging)"
+    },
+    {
+      "region": "eu-central-1",
+      "name": "r53-phz-dev-euc1-app",
+      "scope": "public",
+      "domain-name": "dev.creeks.com",
+      "description": "Public domain (Development)"
+    }
+  ]
+}
